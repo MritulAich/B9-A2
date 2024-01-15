@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin:52px 127px 0 135px ;
+    padding-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    gap: 16px;
+}
+
+.tour {
+    color: #FF5400;
+}
+.home{
+    color: #FF5400;
+    font-weight: 700;
+}
+.bar{display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*  Responsive style part   */
+
+@media screen and (max-width:600px) {
+    nav ul{display: none;}
+    nav{
+        text-align: left;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .bar{
+        display:flex;
+        margin-right:20px ;
+        
+    }
+
+}
