@@ -55,7 +55,7 @@ nav li a {
 
 
 .banner {
-    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     border-radius: 16px;
     width: 1170px;
@@ -314,7 +314,7 @@ form input {
 }
 
 .discount {
-    background-image: url("/Images/Rectangle\ 8\ \(1\).png");
+    background-image: url("./Images/Rectangle\ 8\ \(1\).png");
     width: 672px;
     height: 422px;
     border-radius: 16px;
