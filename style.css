@@ -249,10 +249,103 @@ select {
     text-align: left;
     padding: 32px 55px 32px 32px;
 }
-.reason h3{
+
+.reason h3 {
     font-size: 24px;
     font-weight: 800;
 }
+
+/* newsletter style part  */
+
+.newsletter {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+
+}
+
+.n-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.n-details {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+form input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.line1 {
+    width: 393px;
+    height: 1px;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.last-section {
+    display: flex;
+    margin: 0 135px;
+    gap: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mountain {
+    border-radius: 16px;
+}
+
+.discount {
+    background-image: url("/Images/Rectangle\ 8\ \(1\).png");
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.discount-title {
+    width: 324px;
+    height: 120px;
+    position: absolute;
+    bottom: 50px;
+    right: 16px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.discount-title p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.discount-title h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
 
 
 
@@ -360,8 +453,7 @@ select {
 
     .reason {
         padding: 0px;
-        /* margin: 0px; */
-        margin:0 0px
+        margin: 0 0px
     }
 
     .service {
@@ -385,8 +477,39 @@ select {
         margin-left: 0;
         margin-right: 0px;
     }
-    .reason h3{
+
+    .reason h3 {
         font-size: 20px;
+    }
+
+    .last-section {
+        display: grid;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .discount {
+        width: 335px;
+        height: 300px;
+    }
+
+    .discount-title {
+        width: 214.023px;
+        height: 79.268px;
+    }
+
+    .newsletter {
+        width: 335px;
+        height: 353px;
+    }
+    form input {
+        width: 288px;
+    }
+    .discount-title h3{
+        font-size: 20px;
+    }
+    .discount-title p{
+        font-size: 15px;
     }
 
 
