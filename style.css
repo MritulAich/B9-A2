@@ -163,6 +163,39 @@ select {
     padding-left: 60px;
 }
 
+/* destination style part */
+
+.destination {
+    text-align: center;
+    margin: auto 135px;
+    padding-bottom: 100px;
+}
+
+.images {
+    gap: 24px;
+}
+
+.images-r1 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.images-r2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.images-r3 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.destination .popular-details {
+    padding-bottom: 48px;
+}
+
+.destination .popular-title {
+    padding-top: 20px;
+}
+
+
 
 
 
@@ -247,7 +280,21 @@ select {
     .popular-details-end {
         padding-bottom: 24px;
     }
+    .destination{
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;  
+    }
 
+    .destination .popular-title {
+        font-size: 20px;
+    }
+
+    .destination .images img {
+        width: 335px;
+        height: 176px;
+    }
+    
 
 
 }
