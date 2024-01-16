@@ -196,6 +196,68 @@ select {
 }
 
 
+/* service style part */
+
+.reason {
+    padding: 24px;
+    margin: 0 135px;
+    text-align: center;
+}
+
+.reason .popular-details {
+    padding-bottom: 48px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+.service1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.service3 {
+    margin-left: 433px;
+    margin-right: 433px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    align-items: center;
+}
+
+.service1,
+.service2,
+.service3 {
+    text-align: left;
+    padding: 32px 55px 32px 32px;
+}
+.reason h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+
+
+
 
 
 
@@ -280,13 +342,14 @@ select {
     .popular-details-end {
         padding-bottom: 24px;
     }
-    .destination{
+
+    .destination {
         padding-bottom: 20px;
         margin-left: 20px;
-        margin-right: 20px;  
+        margin-right: 20px;
     }
 
-    .destination .popular-title {
+    .popular-title {
         font-size: 20px;
     }
 
@@ -294,7 +357,42 @@ select {
         width: 335px;
         height: 176px;
     }
-    
+
+    .reason {
+        padding: 0px;
+        /* margin: 0px; */
+        margin:0 0px
+    }
+
+    .service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service1 {
+        width: 335px;
+        height: 289px;
+    }
+
+    .service2 {
+        width: 335px;
+        height: 289px;
+    }
+
+    .service3 {
+        width: 335px;
+        height: 289px;
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    .reason h3{
+        font-size: 20px;
+    }
+
+
+
+
+
 
 
 }
